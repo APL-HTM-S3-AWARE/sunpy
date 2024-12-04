@@ -33,7 +33,7 @@ class LYRAClient(GenericClient):
     2016-01-02 00:00:00.000 2016-01-02 23:59:59.999       LYRA ...      ESA     3
     <BLANKLINE>
     3 Results from the VSOClient:
-    Source: https://sdac.virtualsolar.org/cgi/search
+    Source: http://vso.stanford.edu/cgi-bin/search
     Total estimated size: 2.914 Gbyte
     <BLANKLINE>
            Start Time               End Time        Source ... Extent Type   Size

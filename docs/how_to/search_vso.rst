@@ -1,5 +1,3 @@
-.. doctest-skip-all
-
 .. _sunpy-how-to-search-the-vso:
 
 ******************************************
@@ -22,7 +20,7 @@ To search the Virtual Solar Observatory (VSO) for SDO AIA data in all channels o
     Results from 1 Provider:
     <BLANKLINE>
     11 Results from the VSOClient:
-    Source: https://sdac.virtualsolar.org/cgi/search
+    Source: http://vso.stanford.edu/cgi-bin/search
     Total estimated size: 745.677 Mbyte
     <BLANKLINE>
            Start Time               End Time        Source  ... Extent Type   Size
@@ -48,7 +46,7 @@ For example, you can search for line-of-sight (LOS) magnetic field measurements 
     Results from 1 Provider:
     <BLANKLINE>
     1 Results from the VSOClient:
-    Source: https://sdac.virtualsolar.org/cgi/search
+    Source: http://vso.stanford.edu/cgi-bin/search
     <BLANKLINE>
            Start Time               End Time        Source ... Extent Type   Size
                                                            ...              Mibyte
@@ -67,7 +65,7 @@ For example, the AIA query above can also be expressed using the AND (&) operato
     Results from 1 Provider:
     <BLANKLINE>
     11 Results from the VSOClient:
-    Source: https://sdac.virtualsolar.org/cgi/search
+    Source: http://vso.stanford.edu/cgi-bin/search
     Total estimated size: 745.677 Mbyte
     <BLANKLINE>
            Start Time               End Time        Source ... Extent Type   Size
@@ -96,7 +94,7 @@ Additionally, multiple operators can be chained together to, for example, search
     Results from 1 Provider:
     <BLANKLINE>
     1 Results from the VSOClient:
-    Source: https://sdac.virtualsolar.org/cgi/search
+    Source: http://vso.stanford.edu/cgi-bin/search
     Total estimated size: 67.789 Mbyte
     <BLANKLINE>
            Start Time               End Time        Source ... Extent Type   Size
@@ -118,7 +116,7 @@ For example, to search for AIA data in this same time range from both the 94 and
     Results from 2 Providers:
     <BLANKLINE>
     1 Results from the VSOClient:
-    Source: https://sdac.virtualsolar.org/cgi/search
+    Source: http://vso.stanford.edu/cgi-bin/search
     Total estimated size: 67.789 Mbyte
     <BLANKLINE>
            Start Time               End Time        Source ... Extent Type   Size
@@ -127,7 +125,7 @@ For example, to search for AIA data in this same time range from both the 94 and
     2020-03-04 00:00:21.000 2020-03-04 00:00:22.000    SDO ...    FULLDISK 64.64844
     <BLANKLINE>
     1 Results from the VSOClient:
-    Source: https://sdac.virtualsolar.org/cgi/search
+    Source: http://vso.stanford.edu/cgi-bin/search
     Total estimated size: 67.789 Mbyte
     <BLANKLINE>
            Start Time               End Time        Source ... Extent Type   Size
@@ -149,7 +147,7 @@ For example, to find the HMI LOS magnetic field data and the AIA 94 and 171 data
     Results from 3 Providers:
     <BLANKLINE>
     1 Results from the VSOClient:
-    Source: https://sdac.virtualsolar.org/cgi/search
+    Source: http://vso.stanford.edu/cgi-bin/search
     Total estimated size: 67.789 Mbyte
     <BLANKLINE>
            Start Time               End Time        Source ... Extent Type   Size
@@ -158,7 +156,7 @@ For example, to find the HMI LOS magnetic field data and the AIA 94 and 171 data
     2020-03-04 00:00:21.000 2020-03-04 00:00:22.000    SDO ...    FULLDISK 64.64844
     <BLANKLINE>
     1 Results from the VSOClient:
-    Source: https://sdac.virtualsolar.org/cgi/search
+    Source: http://vso.stanford.edu/cgi-bin/search
     Total estimated size: 67.789 Mbyte
     <BLANKLINE>
            Start Time               End Time        Source ... Extent Type   Size
@@ -167,7 +165,7 @@ For example, to find the HMI LOS magnetic field data and the AIA 94 and 171 data
     2020-03-04 00:00:23.000 2020-03-04 00:00:24.000    SDO ...    FULLDISK 64.64844
     <BLANKLINE>
     1 Results from the VSOClient:
-    Source: https://sdac.virtualsolar.org/cgi/search
+    Source: http://vso.stanford.edu/cgi-bin/search
     <BLANKLINE>
            Start Time               End Time        Source ... Extent Type   Size
                                                            ...              Mibyte

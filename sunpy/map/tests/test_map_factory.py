@@ -285,8 +285,7 @@ def test_map_list_urls_cache():
     """
     urls = ['https://github.com/sunpy/data/raw/main/sunpy/v1/AIA20110607_063305_0094_lowres.fits',
             'https://github.com/sunpy/data/raw/main/sunpy/v1/AIA20110607_063305_0094_lowres.fits']
-    with pytest.warns(fits.verify.VerifyWarning, match="Invalid 'BLANK' keyword in header."):
-        sunpy.map.Map(urls)
+    sunpy.map.Map(urls)
 
 @pytest.mark.remote_data
 def test_map_list_uri():

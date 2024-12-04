@@ -105,7 +105,7 @@ def aia_color_table(wavelength: u.angstrom):
 
     Parameters
     ----------
-    wavelength : `~astropy.units.quantity.Quantity`
+    wavelength : `~astropy.units.quantity`
         Wavelength for the desired AIA color table.
     """
     aia_wave_dict = create_aia_wave_dict()

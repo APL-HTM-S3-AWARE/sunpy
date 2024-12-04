@@ -216,7 +216,7 @@ class MapSequence:
         >>> seq = Map(sunpy.data.sample.HMI_LOS_IMAGE,
         ...           sunpy.data.sample.AIA_1600_IMAGE,
         ...           sunpy.data.sample.EIT_195_IMAGE,
-        ...           sequence=True)  # doctest: +REMOTE_DATA +IGNORE_WARNINGS
+        ...           sequence=True)  # doctest: +REMOTE_DATA
         >>> seq.quicklook()  # doctest: +SKIP
 
         (which will open the following content in the default web browser)
