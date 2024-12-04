@@ -34,7 +34,7 @@ dependencies = [
   "parfive[ftp]>=2.0.0",
   "pyerfa>=2.0.0.1",
   "requests>=2.28.0",
-  "fsspec>=2023.3.0"
+  "fsspec>=2023.3.0",
 ]
 dynamic = ["version"]
 keywords = ["solar physics", "solar", "science", "sun", "wcs", "coordinates"]
